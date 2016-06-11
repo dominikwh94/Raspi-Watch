@@ -27,6 +27,7 @@ string temperature;
 
 const char* ch_temp;
 
+// function to retrieve the current temperature, give the value descriped in test.cpp
 string getTemperature(char const* path) {
 	ifstream inf(path);
 	string c;
@@ -40,6 +41,7 @@ string getTemperature(char const* path) {
 	file_contents.erase(3, 2);
 	file_contents.insert(2, ".");
 
+	// output temperature also on shell
 	cout << "Current Temperature: " << file_contents;
 
 	return file_contents;
