@@ -1,21 +1,19 @@
 # Raspi-Watch
 
-Needed parts for built:
+# Hardware-Parts:
 
-Hardware-Parts:
+-> Raspberry Pi Model B (you can use any other pi with gpio pins too) <br />
+-> DS18B20 digital temperature sensor<br />
+-> HD44780 LCD Screen 1602<br />
+-> PCF8574 Port-Expander backpack for lcd<br />
 
--> Raspberry Pi Model B (you can use any other pi with gpio pins too)
--> DS18B20 digital temperature sensor
--> HD44780 LCD Screen 1602
--> PCF8574 Port-Expander backpack for lcd
+# Optional Hardware-Parts:
 
-Optional Hardware-Parts:
+-> Jumpercables<br />
+-> Breadboard<br />
 
--> Jumpercables
--> Breadboard
+# Software:
 
-Software:
-
--> Raspbian (eg. Wheezy, Jessie etc.)
--> wiringPi library
--> g++ compiler
+-> Raspbian (eg. Wheezy, Jessie etc.)<br />
+-> wiringPi library<br />
+-> g++ compiler<br />
