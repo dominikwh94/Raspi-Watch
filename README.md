@@ -2,7 +2,7 @@
 
 # Hardware-Parts:
 
--> Raspberry Pi Model B (you can use any other pi with gpio pins too) <br />
+<ul> Raspberry Pi Model B (you can use any other pi with gpio pins too)</ul> <br />
 -> DS18B20 digital temperature sensor<br />
 -> HD44780 LCD Screen 1602<br />
 -> PCF8574 Port-Expander backpack for lcd<br />
